@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url('../img/fundo.jpg');
+  background-size: auto 100vh;
+  font-family: Arial;
+  height: 100vh;
+  font-size: 12;
+  }
+
+  @media (min-width: 400px) {
+  body {
+    font-size: 14px;
+  }
+  }
+  
+  /*breakpoint*/
+  @media (min-width: 600px) {
+    body {
+    font-size: 18px;
+  }
+  }
+  
+  header {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+
+  .menu {
+    background-color: white;
+    position: fixed;
+    width: 100vw;
+    top: 0;
+  }
+  
+  .menu ul {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .menu li {
+    list-style: none;
+  }
+  
+  .site-subtitle,
+  .site-title {
+    color: whitesmoke;
+    text-align: center;
+  }
+
+  .site-title{
+    font-size: 2em;
+  }
+  
+  .site-subtitle {
+    font-style: italic;
+  }
+  
+  .menu a {
+    display: block;
+    padding: 5px 20px;
+  }
+
+  a{
+    color: teal;
+    text-decoration: none;
+  }
+  
+  a:hover{
+    text-decoration: underline;
+  }
+
+  .img-portfolio{
+    height: 180;
+    width: 100px;
+  }
